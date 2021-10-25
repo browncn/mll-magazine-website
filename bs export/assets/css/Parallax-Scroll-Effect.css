@@ -1,0 +1,37 @@
+#box-1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../../assets/img/i1.jpg?h=ef79927ec22ee0134f2915a026c6fce3);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+#box-2 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../../assets/img/i2.jpg?h=94b6467160eee64078db4e8273970de4);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+#box-3 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../../assets/img/i3.jpg?h=67196f3ec4cd96b01aefb08153f0b75f);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: arial black;
+  font-size: 50px;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+

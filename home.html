@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MLL</title>
+<style>
+body{
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.div{
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+.im_div{
+	margin: auto;
+	align: center;
+	
+	height: 100%;
+}
+.icon{
+	
+}
+.im {
+	width: 100%;
+	height: 100%;
+}
+.loader_bg{
+	position: fixed;
+	z-index: 999999;
+	background: grey;
+	width: 100%;
+	height: 100%;
+	
+	
+}
+.loader{
+	width: 300px;
+	height: 150px;
+	background: red;
+	margin-top:calc(50vh - 75px);
+	margin-left:calc(50vw - 150px);
+	border: 0 solid transparent;
+	background: url("mll.png") center;
+	background-size: cover;
+}
+.loader:before, .loader:after{
+	content: '';
+	border: 1px solid yellow;
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	animation: loader 2s linear infinite;
+	opacity: 0;
+}
+.loader:before{
+	animation-delay: .5s;
+}
+@keyframes loader {
+0%{
+		transform: scale(0.7);
+		opacity: 0;
+	}
+50%{
+		opacity: 1;
+		border-radius: 3px;
+	}
+100%{
+		transform: scale(1);
+		opacity: 0;
+		border: 20px solid white;		
+	}
+}
+
+</style>
+</head>
+<body>
+<div class="loader_bg">
+	<div class= "loader">
+		
+	</div>
+</div>
+<div class = "icon">
+	<img class= "im" src= "mll.png">
+</div>
+
+</body>
+</html>

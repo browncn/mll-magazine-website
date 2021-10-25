@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>/about.html</loc>
+    </url>
+    <url>
+        <loc>/article.html</loc>
+    </url>
+    <url>
+        <loc>/catalogue.html</loc>
+    </url>
+    <url>
+        <loc>/contact.html</loc>
+    </url>
+    <url>
+        <loc>/editor2.html</loc>
+    </url>
+    <url>
+        <loc>/editor2-1.html</loc>
+    </url>
+    <url>
+        <loc>/forgot.html</loc>
+    </url>
+    <url>
+        <loc>/index.html</loc>
+    </url>
+    <url>
+        <loc>/mag.html</loc>
+    </url>
+    <url>
+        <loc>/realestate.html</loc>
+    </url>
+    <url>
+        <loc>/reg.html</loc>
+    </url>
+    <url>
+        <loc>/sub.html</loc>
+    </url>
+    <url>
+        <loc>/terms-conditions.html</loc>
+    </url>
+</urlset>

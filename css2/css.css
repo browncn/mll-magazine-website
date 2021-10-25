@@ -1,0 +1,215 @@
+@CHARSET "ISO-8859-1";
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 5px 5px 5px #f0f0f0; 
+  border-radius: 10px;
+}
+
+:focus {
+	outline : none;
+}
+:click {
+	outline : none;
+}
+.hidden {
+	display : none;
+}
+
+a:hover, a:focus {
+	text-decoration : none !important;
+}
+.anchor {
+	color:inherit!important; 
+	text-decoration:none!important;
+}
+.nav .active {
+	color : rgba(179,168,75,1)!important;
+}
+.nav li:hover {
+	background : #f3f3f3;
+}
+.nav:active {
+	background : #f3f3f3;
+}
+
+
+
+/* modal */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 5; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  max-width : 600px;
+  top : 50%;
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  color: #4b0082;
+  background-color: #efefef !important;
+  font-size : 15px !important;
+}
+
+/* Modal Body */
+.modal-body {
+	padding: 2px 16px;
+	font-size: 10px;
+	
+}
+.modal-body p{
+	color : gray;
+}
+.modal-body2 {
+	
+	padding: 2px 16px;
+	font-size: 15px;
+	
+}
+.modal-body2 p{
+	color : red;
+}
+
+
+/* Modal Footer */
+.modal-footer {
+  padding: 2px 16px;
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+#access {
+	margin-top : 20px;
+	text-align : right;
+}
+#access a {
+	margin-left : 10px;
+}
+
+/* right side menu */
+.rightsidemenu {
+	text-align : center;
+}
+.rightsidemenu ul {
+	list-style-type : none;
+}
+.rightsidemenu ul li {
+	padding : 5px;
+	border : 1px solid grey;
+}
+.rightsidemenu ul li a {
+	display : block;
+	text-decoration : none;
+	color : white;
+}
+.rightsidemenu ul li a:hover {
+	background : grey;	
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+/* back article */
+.artdiv {
+	margin : 20px;
+	width : 100%;
+}
+.imgdiv {
+	width : 20%;
+	max-width : 300px;
+}
+.infodiv {
+	
+}
+
+/* list */
+.alist{
+	margin: 5px;
+}
+.alist:hover {
+	background: rgba(179,168,75,0.2);
+}
+
+/* pagination */
+.pagi {
+	width : 100%;
+	padding: 5px;
+}
+.pagiprev {
+	background: #b3a84b;
+}
+.paginext {
+	float : right;
+	background: #b3a84b;
+}
+.paginext:hover {
+	font-weight: bold;
+	color: #b3a84b!important;
+	background: rgba(179,168,75,0.2);
+}
+.pagiprev:hover {
+	font-weight: bold;
+	color: #b3a84b!important;
+	background: rgba(179,168,75,0.2);
+}
+
+.index_list a{
+	display : block;
+}
+.index_list a:hover{
+	background : #f3f3f3;
+}

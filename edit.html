@@ -1,0 +1,75 @@
+<html>
+<head>
+	<link media = all  rel = stylesheet href="assets/bootstrap/css/bootstrap.min.css">
+	<link href="suneditor/css/suneditor.min.css" rel="stylesheet">
+	
+	<link href="css2/css.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+<link rel = "shortcut icon" type = "image/png" href = "">
+	
+	<title>test</title>
+</head>
+
+<body>
+<p>Add article</p>
+<canvas id="myCanvasImage" width="500" height="500" style="display:none;"></canvas>
+<form enctype="multipart/form-data">
+<input class= "form-control" type = "text" name = "a_title" id= "a_title" placeholder= "article title">
+<input class= "form-control" type = "text" name= "title_color" id= "title_color" placeholder = "title color">
+<input class= "form-control" type = "file" name= "a_pic" id= "a_pic" accept= "image/*">
+<textarea class= "form-control" id="edit" rows="10" cols="100" name="aticus"></textarea>
+<textarea name="base64" id="base64" style=";"></textarea>
+<button type="button" value = "submit" name = "submit" id="a_submit" onclick = "article_sub()">submit</button>
+</form>
+
+<div id='a_get' class="sun-editor-editable">
+lamo
+
+
+</div>
+
+<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <!-- Modal content -->			
+				<div class="modal-content">
+				  <div class="modal-header" id = "modal-header">
+				    <h2>Information!</h2>
+				    <span class="close" id = 'cancel'> &times; </span>
+				  </div>
+				  <div class="modal-body" id = "modal-body">
+				  </div>
+				  <div class="modal-footer">
+				  </div>
+				</div>
+			</div>
+
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="suneditor/js/suneditor.min.js"></script>
+<script src="suneditor/js/codemirror.min.js"></script>
+<script src="suneditor/js/htmlmixed.js"></script>
+<script src="suneditor/js/xml.js"></script>
+<script src="suneditor/js/css.js"></script>
+<script src="suneditor/js/katex.min.js"></script>
+<script src="js2/suneditor_client_side.js"></script>
+<script src="js2/editor.js"></script>
+
+<script>
+
+
+</script>
+
+<script>
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.cont-fadein {
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.cont-fadein:hover {
+  opacity: 1!important;
+}
+
+.backfade {
+}
+
+.ultima_z-index {
+  z-index: 1021 !important;
+}
+
+.first_l::first-letter {
+  font-size: 150px !important;
+  float: left;
+  line-height: 100px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
