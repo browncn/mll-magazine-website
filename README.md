@@ -12,3 +12,5 @@ Languages and tools used:
 
 Live version : https://www.mylegallifestyle.com/
 
+Template files in bs export folder
+
