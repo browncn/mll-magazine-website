@@ -10,3 +10,5 @@ Languages and tools used:
 •	Bootstrap
 •	Bootstrap Studio
 
+Live version : https://www.mylegallifestyle.com/
+
