@@ -9,6 +9,9 @@ Languages and tools used:
 •	AJAX
 •	Bootstrap
 •	Bootstrap Studio
+•	Flutterwave
+•	PHPMailer
+•	Sunflower Editor
 
 Live version : https://www.mylegallifestyle.com/
 
